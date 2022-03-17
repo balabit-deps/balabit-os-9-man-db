@@ -1,0 +1,12 @@
+# see git-dpm(1) from git-dpm package
+8a20bb7f39d2e3d90f2368a2a6b2a1ff8bc5968d
+8a20bb7f39d2e3d90f2368a2a6b2a1ff8bc5968d
+8a20bb7f39d2e3d90f2368a2a6b2a1ff8bc5968d
+8a20bb7f39d2e3d90f2368a2a6b2a1ff8bc5968d
+man-db_2.10.2.orig.tar.xz
+69799ae90bf59eb5f20335b65c094458b1e12bdb
+1902840
+debianTag="debian/%V"
+patchedTag="patched/%V"
+upstreamTag="upstream/%U"
+signature:452144b076806bd9f8c738f190c3d67429073e66:833:man-db_2.10.2.orig.tar.xz.asc

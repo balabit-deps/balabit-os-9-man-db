@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+
+oldcatdir="/var/catman"
+catdir="/var/cache/man"
+
+case $1 in
+    purge)
+	# removing all catpage hierarchies
+	if [ -d $oldcatdir ]; then
+	    echo "  Removing catpages as well as $oldcatdir hierarchy."
+	    rm -rf $oldcatdir 2>/dev/null || true
+	fi
+	if [ -d $catdir ]; then
+	    echo "  Removing catpages as well as $catdir hierarchy."
+	    rm -rf $catdir 2>/dev/null || true
+	fi
+	rm -f /var/lib/man-db/auto-update
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
